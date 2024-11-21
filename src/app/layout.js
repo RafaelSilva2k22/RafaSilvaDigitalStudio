@@ -3,10 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title:
-    "Criação de Sites Profissionais e Personalizados | Rafa Silva Digital Studio",
+  title: "Criação de Sites Profissionais | Rafa Silva Digital Studio",
   description:
-    "Rafa Silva Digital Studio oferece criação de sites modernos e personalizados para empresas de todo o Brasil. Obtenha um site responsivo e otimizado para destacar seu negócio online.",
+    "Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online..",
   keywords:
     "criação de sites, desenvolvimento de sites, web design para empresas, sites personalizados, sites responsivos, Rafa Silva Digital Studio",
 };
