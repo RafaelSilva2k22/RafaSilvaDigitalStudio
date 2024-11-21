@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "icon": "FaSearch",
+        "title": "SEO Otimizado",
+        "description": "Desenvolvemos sites otimizados para melhorar a visibilidade nos mecanismos de busca e atrair mais clientes para o seu negócio."
+    },
+    {
+        "id": 2,
+        "icon": "FaMobileAlt",
+        "title": "Design Responsivo",
+        "description": "Sites que se adaptam a todos os dispositivos, garantindo uma experiência perfeita para os usuários em qualquer tela."
+    },
+    {
+        "id": 3,
+        "icon": "FaPalette",
+        "title": "Experiência do Usuário",
+        "description": "Sites criados com foco na navegação intuitiva e visual atraente, melhorando a experiência dos visitantes e incentivando a conversão."
+    }
+]

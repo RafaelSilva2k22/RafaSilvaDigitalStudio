@@ -1,0 +1,14 @@
+{
+    "address": {
+        "icon": "FaMapMarkerAlt",
+        "text": "Rua Benedito Ferreira, 38 - São Francisco, Jardinópolis"
+    },
+    "phone": {
+        "icon": "FaPhoneAlt",
+        "text": "(16) 99448-7287"
+    },
+    "email": {
+        "icon": "FaEnvelope",
+        "text": "rafa-silv_@outlook.com"
+    }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "question": "Qual tipo de website é ideal para o meu negócio?",
+        "answer": "O tipo de website depende dos objetivos do seu negócio. Se você deseja uma presença básica online, um site institucional pode ser suficiente. Para e-commerce, um site de vendas com carrinho e checkout é ideal."
+    },
+    {
+        "question": "Vocês oferecem suporte após o lançamento do site?",
+        "answer": "Sim, oferecemos suporte e manutenção após o lançamento para garantir que seu site continue funcionando perfeitamente e atualizado."
+    },
+    {
+        "question": "Qual é o prazo médio para desenvolvimento de um site?",
+        "answer": "O prazo médio depende da complexidade do projeto. Sites simples podem ser desenvolvidos em poucas semanas, enquanto projetos mais complexos podem levar alguns meses."
+    }
+]

@@ -1,0 +1,43 @@
+.divider-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: var(--background-blue);
+    margin: 36px 0;
+}
+
+.scroll-wrapper {
+    display: flex;
+    gap: 2.5rem;
+    animation: scroll 40s linear infinite;
+    white-space: nowrap;
+}
+
+.tech-item {
+    color: var(--text-color);
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .scroll-wrapper {
+        gap: 1.5rem;
+        animation: scroll 20s linear infinite;
+    }
+
+    .tech-item {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Modelo de Site em Next.js com Paginação
+Este repositório contém um modelo de site desenvolvido em Next.js, com uma estrutura básica e funcionalidade de paginação, pensado para ser utilizado como protótipo para a criação rápida de websites. Ele foi projetado para eliminar a necessidade de começar do zero, oferecendo uma base sólida que pode ser facilmente personalizada para diferentes tipos de projetos.
 
-## Getting Started
+Funcionalidades
+Estrutura de Paginação: Permite navegar por diferentes páginas de conteúdo de forma simples e eficiente.
+Design Responsivo: Layout otimizado para funcionar em dispositivos móveis e desktops.
+Facilidade de Customização: A estrutura do projeto é modular, permitindo alterações rápidas no design, estrutura e conteúdo.
+Base de Dados Simples: Pode ser expandido para um backend, permitindo gerenciamento de conteúdo de forma dinâmica no futuro.
+Começando
+Para começar, clone o repositório e instale as dependências:
 
-First, run the development server:
+git clone https://github.com/SEU_USUARIO/seu-repositorio.git
+cd seu-repositorio
+npm install
+# ou
+yarn install
+# ou
+pnpm install
 
-```bash
+Em seguida, execute o servidor de desenvolvimento:
+
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Você pode começar a editar as páginas alterando os arquivos na pasta app. O conteúdo da página será atualizado automaticamente ao salvar as alterações.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Estrutura do Projeto
+app/page.js: Página inicial do site, onde você pode ajustar o conteúdo principal.
+app/components/: Componentes reutilizáveis que podem ser utilizados em diversas partes do site.
+app/styles/: Arquivos de estilo CSS para personalizar a aparência do site.
+Personalização
+Este modelo foi desenvolvido para ser fácil de customizar. Para alterar cores, fontes ou qualquer outro aspecto visual, basta editar os arquivos na pasta styles e ajustar as variáveis de tema conforme necessário.
 
-## Learn More
+Como Usar
+Este projeto foi criado para ser um protótipo para websites. Você pode usar este modelo para:
 
-To learn more about Next.js, take a look at the following resources:
+Criar sites de portfólio, blogs ou páginas institucionais.
+Desenvolver sites com paginação de forma rápida.
+Experimentar e testar novos layouts sem precisar começar do zero.
+Recursos Úteis
+Next.js Documentation - Aprenda mais sobre os recursos do Next.js e como utilizá-los.
+Learn Next.js - Tutorial interativo para aprender o básico do Next.js.
+Vercel Deployment Guide - Guia de como hospedar seu projeto na Vercel.
+Deploy no Vercel
+A maneira mais fácil de fazer o deploy do seu app Next.js é utilizando a Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Consulte a documentação de deploy do Next.js para mais informações.

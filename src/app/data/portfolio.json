@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874350/file_k6fs37.png",
+        "textAlt": "Imagem site 1",
+        "urlCompleteImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg"
+    },
+    {
+        "id": 2,
+        "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874350/file_k6fs37.png",
+        "textAlt": "Imagem site 2",
+        "urlCompleteImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874384/Fintech_Landingpage_wcndb9.svg"
+    },
+    {
+        "id": 3,
+        "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874350/file_k6fs37.png",
+        "textAlt": "Imagem site 3",
+        "urlCompleteImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg"
+    },
+    {
+        "id": 4,
+        "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874350/file_k6fs37.png",
+        "textAlt": "Imagem site 4",
+        "urlCompleteImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg"
+    }
+]
