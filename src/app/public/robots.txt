@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Allow: /public/
+Sitemap: https://https://rafa-silva-digitalstudio.vercel.app/Sitemap.xml

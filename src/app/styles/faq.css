@@ -1,61 +1,71 @@
 /* FAQSection.css */
 
 #section-container {
-    padding: 48px 32px;
-    background-color: var(--background-blue);
-    text-align: center;
+  padding: 48px 32px;
+  background-color: var(--background-blue);
+  text-align: center;
 }
 
 @media (max-width: 768px) {
-    .section-container {
-        padding: 2rem 1rem;
-    }
+  .section-container {
+    padding: 2rem 1rem;
+  }
 }
 
 .content-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    color: var(--text-color);
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  color: var(--text-color);
 }
 
 .heading {
-    color: var(--text-color);
-    text-align: center;
+  color: var(--text-color);
+  text-align: center;
 }
 
 .question {
-    width: 100%;
-    cursor: pointer;
-    color: var(--text-color);
-    padding: 1rem 2rem;
-    margin: 1rem 0 0 0;
-    transition: background-color 0.3s;
-    position: relative;
-    background-color: var(--background-black);
-    text-align: start;
+  width: 100%;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  margin: 1rem 0 0 0;
+  transition: background-color 0.3s;
+  position: relative;
+  background-color: var(--background-black);
+  text-align: start;
+  font-size: var(--font-medium);
 }
 
 .question svg {
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: var(--background-blue);
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--background-blue);
 }
 
 .answer-container {
-    transition: max-height 0.2s ease-in-out, padding 0.4s ease-in-out;
-    max-height: 0;
-    padding: 0 2rem;
-    overflow: hidden;
-    color: var(--text-color);
-    background-color: var(--background-black);
-    font-size: var(--font-medium);
+  transition: max-height 0.2s ease-in-out, padding 0.4s ease-in-out;
+  max-height: 0;
+  padding: 0 2rem;
+  overflow: hidden;
+  color: var(--text-color);
+  background-color: var(--background-black);
+  font-size: var(--font-medium);
 }
 
 .answer-container.visible {
-    max-height: 300px;
-    /* Ajuste o valor conforme necessário */
-    padding: 1rem 2rem;
+  max-height: 300px;
+  /* Ajuste o valor conforme necessário */
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .question {
+    font-size: var(--font-small);
+  }
+  .answer-container {
+    font-size: var(--font-small);
+  }
 }

@@ -1,89 +1,130 @@
 .section-container {
-    text-align: center;
-    background-color: var(--background-black);
-    padding: 3rem 2rem;
+  text-align: center;
+  background-color: var(--background-black);
+  padding: 3rem 2rem;
 }
 
 .portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 200px));
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 200px));
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2.5rem;
 }
 
 .portfolio-card {
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s;
 }
 
 .portfolio-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .project-image {
-    width: 100%;
-    aspect-ratio: 2/4;
-    border-radius: 8px;
-    cursor: pointer;
-    object-fit: cover;
-    height: auto;
+  width: 100%;
+  aspect-ratio: 2/4;
+  border-radius: 8px;
+  cursor: pointer;
+  object-fit: cover;
+  height: auto;
 }
 
 .modal-overlay {
-    position: fixed;
-    top: var(--header-height);
-    left: 0;
-    width: 100%;
-    height: calc(100% - var(--header-height, 60px));
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden;
-    z-index: 1000;
-    padding: 1rem;
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  width: 100%;
+  height: calc(100% - var(--header-height, 60px));
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  z-index: 1000;
+  padding: 1rem;
 }
 
 .modal-content {
-    position: relative;
-    width: 90%;
-    max-width: 800px;
-    max-height: 100%;
-    overflow-y: auto;
-    background-color: var(--text-color);
-    border-radius: 8px;
-    padding: 1rem;
+  position: relative;
+  width: 90%;
+  max-width: var(--max-width);
+  max-height: 100%;
+  overflow-y: auto;
+  background-color: var(--text-color);
+  border-radius: 8px;
+  padding: 1rem;
 }
 
 .modal-content img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .close-button {
-    position: sticky;
-    /* "Gruda" dentro do contêiner do modal */
-    top: 10px;
-    /* Mantém uma distância fixa do topo do modal */
-    margin-left: 90%;
+  position: sticky;
+  /* "Gruda" dentro do contêiner do modal */
+  top: 10px;
+  /* Mantém uma distância fixa do topo do modal */
+  margin-left: 90%;
 
-    background: var(--Primary);
-    border: none;
-    color: var(--text-color);
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    z-index: 1050;
-    /* Garante que o botão fique acima do conteúdo */
+  background: var(--Primary);
+  border: none;
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1050;
+  /* Garante que o botão fique acima do conteúdo */
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.spinner {
+  border: 4px solid transparent;
+  border-top: 4px solid var(--Primary);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .close-button {
+    margin-left: 80%;
+  }
+}
+@media (max-width: 475px) {
+  .close-button {
+    margin-left: 70%;
+  }
 }
 
 .close-button:hover {
-    background: var(--hover);
+  background: var(--hover);
 }
 
 .section-subtitle {
-    margin-bottom: 36px;
-    color: var(--text-color);
+  margin-bottom: 36px;
+  color: var(--text-color);
 }
