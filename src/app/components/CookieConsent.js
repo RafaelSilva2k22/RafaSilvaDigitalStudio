@@ -18,12 +18,12 @@ export default function CookieConsent() {
 
   return (
     showBanner && (
-      <div className="cookie-banner">
+      <div className="cookie-banner" id="banner">
         <p>
           Este site utiliza cookies para melhorar sua experiência. Ao continuar
           navegando, você concorda com o uso de cookies.
         </p>
-        <button onClick={handleAccept}>Aceitar</button>
+        <button id="button" onClick={handleAccept}>Aceitar</button>
       </div>
     )
   );
