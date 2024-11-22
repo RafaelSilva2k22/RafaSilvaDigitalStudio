@@ -1,10 +1,12 @@
 import AboutSection from "../components/About";
 import Head from "next/head";
+const currentUrl = "https://projectinnextjs.vercel.app/about";
 
 export default function AboutPage() {
   return (
     <>
       <Head>
+        <link rel="canonical" href={currentUrl} />
         <title>Sobre Nós | Rafa Silva Digital Studio</title>
         <meta
           name="description"
@@ -20,7 +22,7 @@ export default function AboutPage() {
         />
         <meta
           property="og:image"
-          content="https://rafa-silva-digitalstudio.vercel.app/assets/about-image.svg"
+          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732290116/pexels-photo-5725575_n9s0tg.avif"
         />
       </Head>
 

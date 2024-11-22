@@ -33,7 +33,7 @@
   transition: background-color 0.3s;
   position: relative;
   background-color: var(--background-black);
-  text-align: start;
+  text-align: flex-start;
   font-size: var(--font-medium);
 }
 

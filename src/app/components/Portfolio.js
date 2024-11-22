@@ -36,6 +36,8 @@ const PortfolioSection = () => {
               alt={portfolio.textAlt}
               loading="lazy"
               onClick={() => openModal(index)}
+              width={200}
+              height={400}
             />
           </div>
         ))}

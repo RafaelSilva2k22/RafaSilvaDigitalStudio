@@ -16,9 +16,11 @@ const AboutSection = () => {
       <div className="about-area">
         <div className="image-container">
           <img
-            src="https://images.pexels.com/photos/5725575/pexels-photo-5725575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            src="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732290116/pexels-photo-5725575_n9s0tg.avif"
             alt="Studio Rafa Silva"
             loading="lazy"
+            width={400}
+            height={426}
           />
         </div>
         <div className="content-container">

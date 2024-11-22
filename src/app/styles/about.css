@@ -1,82 +1,82 @@
 /* Estilo geral da seção */
 .about-section {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    padding: 3rem 2rem;
-    color: var(--text-color);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 3rem 2rem;
+  color: var(--text-color);
 }
 
 .about-section .about-heading {
-    margin: 2rem auto;
+  margin: 2rem auto;
 }
 
 .about-section .about-area {
-    display: flex;
+  display: flex;
 }
 
 @media (max-width: 768px) {
-    .about-section {
-        align-items: center;
-        padding: 2rem 1rem;
-        text-align: justify;
-    }
+  .about-section {
+    align-items: center;
+    padding: 2rem 1rem;
+    text-align: justify;
+  }
 
-    .about-section .about-area {
-        flex-direction: column;
-    }
+  .about-section .about-area {
+    flex-direction: column;
+  }
 }
 
 /* Estilo do contêiner de imagem */
 .image-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .image-container img {
-    width: 100%;
-    max-width: 400px;
-    aspect-ratio: 3/3.2;
-    background-color: var(--Secondary);
-    border-radius: 8px;
-    object-fit: cover;
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 3/3.2;
+  background-color: var(--Secondary);
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
-    .image-container img {
-        max-width: 300px;
-    }
+  .image-container img {
+    max-width: 300px;
+  }
 }
 
 /* Estilo do contêiner de conteúdo */
 .content-container {
-    flex: 1;
-    height: auto;
-    padding: 0 2rem;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 24px;
+  flex: 1;
+  height: auto;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 24px;
 }
 
 .content-container p {
-    margin-top: 1rem;
-    text-align: justify;
+  margin-top: 1rem;
+  text-align: justify;
 }
 
 @media (max-width: 768px) {
-    .content-container {
-        height: auto;
-        padding: 0;
-        text-align: center;
-        max-width: 500px;
-        margin-top: 24px;
-    }
+  .content-container {
+    height: auto;
+    padding: 0;
+    text-align: center;
+    max-width: 500px;
+    margin-top: 24px;
+  }
 }
 
 @media (max-width: 500px) {
-    .content-container {
-        max-width: 375px;
-    }
+  .content-container {
+    max-width: 375px;
+  }
 }
