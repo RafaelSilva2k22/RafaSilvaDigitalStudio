@@ -114,6 +114,6 @@
   .styledButton {
     font-size: var(--font-small);
     padding: 0.7rem 1.2rem;
-    margin: 0 auto;
+    margin: 1rem auto;
   }
 }
