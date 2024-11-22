@@ -83,8 +83,8 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
-        <Footer />
         <CookieConsent />
+        <Footer />
       </body>
     </html>
   );
