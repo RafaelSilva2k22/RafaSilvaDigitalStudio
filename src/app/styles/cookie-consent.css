@@ -3,7 +3,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: var(--background);
+  background-color: var(--background-blue);
   color: var(--text-color);
   padding: 15px 20px;
   text-align: center;
@@ -16,7 +16,7 @@
 #button {
   margin-left: 10px;
   padding: 5px 10px;
-  background-color: var(--background);
+  background-color: var(--Primary);
   color: var(--text-color);
   border: none;
   cursor: pointer;
