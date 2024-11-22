@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
+<meta name="google-site-verification" content="mHTqTzx9T6h6NE9X0U0vsl4uF88glfD4q1AoiejxTHE" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta
