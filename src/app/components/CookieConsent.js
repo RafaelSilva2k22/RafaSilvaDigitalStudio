@@ -1,6 +1,6 @@
 "use client"; // Marca para garantir que o componente use renderização no cliente
 import { useState, useEffect } from "react";
-import "./styles/cokieConsent.css"
+import "../styles/cookie-consent.css"
 export default function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
 
