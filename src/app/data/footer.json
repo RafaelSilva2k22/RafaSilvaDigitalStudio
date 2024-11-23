@@ -1,20 +1,8 @@
 {
-    "socialLinks": [
-        {
-            "icon": "FaFacebook",
-            "url": "https://m.facebook.com/profile.php?id=61555466011481&name=xhp_nt__fb__action__open_user",
-            "label": "Facebook"
-        },
-        {
-            "icon": "FaInstagram",
-            "url": "https://www.instagram.com/rafa_silv_2k23/",
-            "label": "Instagram"
-        },
-        {
-            "icon": "FaLinkedin",
-            "url": "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
-            "label": "LinkedIn"
-        }
-    ],
-    "copyright": "&copy; 2023 Rafael Silva Digital Studio. Todos os direitos reservados."
+  "socialLinks": [
+    { "icon": "facebook", "url": "https://facebook.com", "label": "Facebook" },
+    { "icon": "instagram", "url": "https://instagram.com", "label": "Instagram" },
+    { "icon": "linkedin", "url": "https://linkedin.com", "label": "LinkedIn" }
+  ],
+  "copyright": "© 2024 Seu Nome. Todos os direitos reservados."
 }
