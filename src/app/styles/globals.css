@@ -92,7 +92,7 @@ h4 {
 /* Estilos para parágrafos (p) */
 p {
   font-size: var(--font-medium);
-  line-height: 170%;
+  line-height: 140%;
   font-weight: 300;
 }
 

@@ -7,16 +7,16 @@ const HeroSection = () => {
   return (
     <section className="hero-container">
       <h1 className="hero-title">
-        Transforme sua Presença Digital com Site Profissional
+        Criar um Site Profissional é o Primeiro Passo para o Sucesso Online
       </h1>
       <h2 className="hero-subtitle">
-        Sites modernos, responsivos e pensados para destacar sua empresa em
-        qualquer lugar do Brasil.
+        Tenha um site moderno, responsivo e otimizado para atrair mais clientes
+        e fortalecer sua presença digital.
       </h2>
       <Button
         href="/contact"
         aria-label="Ir para a seção de contato"
-        text="Entre em Contato"
+        text="Crie seu Site Agora"
       />
       <div className="mouse-icon-container">
         <CiDesktopMouse2 className="mouse-icon" />

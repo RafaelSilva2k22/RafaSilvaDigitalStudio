@@ -27,14 +27,25 @@ const AboutSection = () => {
           />
         </div>
         <div className="content-container">
+          <h4>Missão</h4>
           <p>
-            Somos um estúdio especializado em desenvolvimento de sites modernos
-            e personalizados para pequenas e médias empresas. Com foco em
-            qualidade, funcionalidade e design, ajudamos nossos clientes a
-            construir uma presença online profissional que impulsione seu
-            negócio. Nosso compromisso é com a criatividade e inovação,
-            proporcionando uma experiência única para cada cliente e cada
-            projeto.
+            Transformar ideias em presença digital. Nosso propósito é ajudar
+            pequenas e médias empresas a crescerem online, criando sites que
+            combinam funcionalidade, design e resultados.
+          </p>
+          <h4>Sobre Nós</h4>
+          <p>
+            Somos especialistas em criar sites modernos e personalizados,
+            focados em atender às necessidades de cada cliente. Nosso estúdio
+            trabalha com dedicação para fazer sites que reflitam a essência de
+            sua marca, garantindo uma experiência única para o usuário final.
+          </p>
+          <h4>Como Fazemos a Diferença</h4>
+          <p>
+            Nosso processo une criatividade, tecnologia e inovação para entregar
+            sites profissionais, responsivos e otimizados para SEO. Sabemos que
+            um site bem feito é o primeiro passo para o sucesso online, e por
+            isso priorizamos qualidade e eficiência em cada projeto.
           </p>
         </div>
       </div>
