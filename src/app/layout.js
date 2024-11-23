@@ -9,7 +9,7 @@ export const metadata = {
   description:
     "Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online.",
   keywords:
-    "criação de sites, desenvolvimento de sites, web design para empresas, sites personalizados, sites Profissionais, Rafa Silva Digital Studio",
+    "criação de sites, Criar site, Fazer site, desenvolvimento de sites, web design para empresas, sites personalizados, sites Profissionais, Rafa Silva Digital Studio",
 };
 
 export default function RootLayout({ children }) {
