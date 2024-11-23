@@ -1,6 +1,7 @@
 "use client";
 import "../styles/about.css";
 import Title from "../components/Title";
+import aboutImage from "../public/images/About-image.avif"; // Importa a imagem do about section
 
 const AboutSection = () => {
   return (
@@ -16,11 +17,11 @@ const AboutSection = () => {
       <div className="about-area">
         <div className="image-container">
           <img
-            src="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732290116/pexels-photo-5725575_n9s0tg.avif"
+            src={aboutImage}
             alt="Studio Rafa Silva"
             loading="lazy"
-            width={400}
-            height={426}
+            width={420}
+            height={747}
           />
         </div>
         <div className="content-container">
