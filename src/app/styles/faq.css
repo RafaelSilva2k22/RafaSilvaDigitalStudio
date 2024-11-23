@@ -53,6 +53,7 @@
   color: var(--text-color);
   background-color: var(--background-black);
   font-size: var(--font-medium);
+  font-weight: 300;
 }
 
 .answer-container.visible {

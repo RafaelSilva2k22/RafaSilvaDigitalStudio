@@ -37,8 +37,8 @@
 
 .image-container img {
   width: 100%;
-  max-width: 420px;
-  aspect-ratio: 9/16;
+  max-width: 558px;
+  aspect-ratio: 1/1;
   background-color: var(--Secondary);
   border-radius: 8px;
   object-fit: cover;

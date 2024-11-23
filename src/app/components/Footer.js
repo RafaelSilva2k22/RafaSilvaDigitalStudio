@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import footerData from "../data/footer.json"; // Importa os dados do JSON
 import "../styles/footer.css";
 
 const icons = {
   FaFacebook,
-  FaTwitter,
+  FaInstagram,
   FaLinkedin,
 };
 

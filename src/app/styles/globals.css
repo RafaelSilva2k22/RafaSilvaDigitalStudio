@@ -52,16 +52,13 @@ body {
   padding-top: var(--header-height);
   background-color: var(--background-black);
   max-width: 1440px;
+  font-weight: 400;
 }
 
 /* Estilos para cabeçalhos (h1, h2, h3, etc.) */
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
+h2 {
+  font-weight: 800;
 }
 
 h3 {
@@ -70,6 +67,7 @@ h3 {
   max-width: 700px;
   margin: 2rem auto;
   text-align: center;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -95,6 +93,7 @@ h4 {
 p {
   font-size: var(--font-medium);
   line-height: 170%;
+  font-weight: 300;
 }
 
 @media (max-width: 768px) {

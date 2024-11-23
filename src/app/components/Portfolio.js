@@ -37,7 +37,7 @@ const PortfolioSection = () => {
               loading="lazy"
               onClick={() => openModal(index)}
               width={200}
-              height={400}
+              height={356}
             />
           </div>
         ))}

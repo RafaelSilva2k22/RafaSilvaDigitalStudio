@@ -2,6 +2,7 @@ import "./styles/globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
+import GoogleTagManager from "./components/GoogleTagManager";
 
 export const metadata = {
   title: "Criação de Sites Profissionais | Rafa Silva Digital Studio",
@@ -21,7 +22,7 @@ export default function RootLayout({ children }) {
         <meta property="og:description" content={metadata.description} />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732290116/pexels-photo-5725575_n9s0tg.avif"
+          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif"
         />
         <meta property="og:url" content="https://projectinnextjs.vercel.app/" />
         <meta property="og:type" content="website" />
@@ -30,14 +31,13 @@ export default function RootLayout({ children }) {
         <meta name="twitter:description" content={metadata.description} />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732290116/pexels-photo-5725575_n9s0tg.avif"
+          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif"
         />
         <link
           rel="icon"
           href="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732289188/Global_whqzsu.svg"
         />
 
-        {/* Adicionando JSON-LD para dados estruturados (Organização) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -81,6 +81,7 @@ export default function RootLayout({ children }) {
         ></script>
       </head>
       <body>
+        <GoogleTagManager />
         <Header />
         {children}
         <Footer />

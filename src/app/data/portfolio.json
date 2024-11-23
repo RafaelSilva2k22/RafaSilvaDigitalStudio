@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732319967/24189337_sl_070720_32260_34_cow8dm.svg",
+    "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/c_fill,w_200,h_356,ar_9:16/v1732318375/2064bee740d511c8220f7f5515b50079_fznk58.webp",
     "textAlt": "Imagem site 1",
     "urlCompleteImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg"
   },
   {
     "id": 2,
-    "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732319967/24189337_sl_070720_32260_34_cow8dm.svg",
+    "urlImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/c_fill,w_200,h_356,ar_9:16/v1732318375/2064bee740d511c8220f7f5515b50079_fznk58.webp",
     "textAlt": "Imagem site 2",
     "urlCompleteImage": "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874384/Fintech_Landingpage_wcndb9.svg"
   }

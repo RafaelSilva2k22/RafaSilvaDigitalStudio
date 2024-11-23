@@ -22,7 +22,7 @@ export default function AboutPage() {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732290116/pexels-photo-5725575_n9s0tg.avif"
+          content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif"
         />
       </Head>
 
