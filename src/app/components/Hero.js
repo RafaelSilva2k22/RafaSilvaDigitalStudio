@@ -7,7 +7,7 @@ const HeroSection = () => {
   return (
     <section className="hero-container">
       <h1 className="hero-title">
-        Criar um Site Profissional é o Primeiro Passo para o Sucesso Online
+        Crie um Site Profissional e Tenha Sucesso Online
       </h1>
       <h2 className="hero-subtitle">
         Tenha um site moderno, responsivo e otimizado para atrair mais clientes
