@@ -1,8 +1,8 @@
+"use client";
 import "./styles/globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
-import GoogleTagManager from "./components/GoogleTagManager";
 
 export const metadata = {
   title: "Criação de Sites Profissionais | Rafa Silva Digital Studio",
@@ -38,6 +38,23 @@ export default function RootLayout({ children }) {
           href="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732289188/Global_whqzsu.svg"
         />
 
+        {/* Script Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-L7ECCML2S9"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-L7ECCML2S9');
+            `,
+          }}
+        ></script>
+
+        {/* JSON-LD para SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -81,7 +98,6 @@ export default function RootLayout({ children }) {
         ></script>
       </head>
       <body>
-        <GoogleTagManager />
         <Header />
         {children}
         <Footer />
