@@ -45,6 +45,7 @@ h4 {
   background-color: var(--Secondary);
   border-radius: 8px;
   object-fit: cover;
+margin: 12px 0;
 }
 
 @media (max-width: 768px) {
