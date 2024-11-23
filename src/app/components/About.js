@@ -15,11 +15,7 @@ const AboutSection = () => {
       <div className="about-area">
         <div className="image-container">
           <img
-            src="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif"
-            srcSet="
-        https://res.cloudinary.com/dcyw5xzx4/image/upload/c_fill,w_300,h_300,ar_1:1/v1732367079/online-school-equipment-home_xf5sq9.avif 300w,
-        https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif 558w"
-            sizes="(max-width: 768px) 300px,558px"
+            src="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732366711/pexels-photo-5725575_e6cjuh.jpg"
             alt="Studio Rafa Silva"
             loading="lazy"
             width={558}
