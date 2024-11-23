@@ -6,11 +6,11 @@ import Title from "./Title";
 
 const PortfolioSection = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-  const [imageLoading, setImageLoading] = useState(true); // Novo estado para controlar o carregamento da imagem
+  const [imageLoading, setImageLoading] = useState(true);
 
   const openModal = (index) => {
     setSelectedImageIndex(index);
-    setImageLoading(true); // Resetar o estado de carregamento ao abrir o modal
+    setImageLoading(true);
   };
 
   const closeModal = () => {
@@ -18,7 +18,7 @@ const PortfolioSection = () => {
   };
 
   const handleImageLoad = () => {
-    setImageLoading(false); // Atualiza o estado quando a imagem for carregada
+    setImageLoading(false);
   };
 
   return (
@@ -33,6 +33,8 @@ const PortfolioSection = () => {
             <img
               className="project-image"
               src={portfolio.urlImage}
+              srcSet={`${portfolio.urlImageMobile} 170w, ${portfolio.urlImage} 200w`}
+              sizes="(max-width: 768px) 170px, 227px"
               alt={portfolio.textAlt}
               loading="lazy"
               onClick={() => openModal(index)}
@@ -51,15 +53,14 @@ const PortfolioSection = () => {
             </button>
             {imageLoading && (
               <div className="loading-spinner">
-                {/* O spinner pode ser um simples círculo animado */}
                 <div className="spinner"></div>
               </div>
             )}
             <img
               src={portfolioData[selectedImageIndex].urlCompleteImage}
               alt={portfolioData[selectedImageIndex].textAlt}
-              onLoad={handleImageLoad} // Quando a imagem terminar de carregar, muda o estado
-              style={{ display: imageLoading ? "none" : "block" }} // Esconde a imagem até carregar
+              onLoad={handleImageLoad}
+              style={{ display: imageLoading ? "none" : "block" }}
             />
           </div>
         </div>

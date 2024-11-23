@@ -23,7 +23,7 @@
 }
 
 .project-image {
-  width: 100%;
+  max-width: 170px;
   aspect-ratio: 9/16;
   border-radius: 8px;
   cursor: pointer;
@@ -112,6 +112,10 @@
 @media (max-width: 768px) {
   .close-button {
     margin-left: 80%;
+  }
+  .project-image {
+    width: 100%;
+    aspect-ratio: 3/4;
   }
 }
 @media (max-width: 475px) {
