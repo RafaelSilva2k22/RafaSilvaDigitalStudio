@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import { FaBars, FaTimes } from "react-icons/fa";
 import "../styles/header.css";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   // Função para alternar o menu mobile

@@ -1,8 +1,0 @@
-{
-  "socialLinks": [
-    { "icon": "facebook", "url": "https://facebook.com", "label": "Facebook" },
-    { "icon": "instagram", "url": "https://instagram.com", "label": "Instagram" },
-    { "icon": "linkedin", "url": "https://linkedin.com", "label": "LinkedIn" }
-  ],
-  "copyright": "© 2024 Seu Nome. Todos os direitos reservados."
-}

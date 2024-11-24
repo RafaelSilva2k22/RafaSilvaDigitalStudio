@@ -1,6 +1,7 @@
 "use client";
 import "../styles/about.css";
 import Title from "../components/Title"; // Importa a imagem do about section
+import Image from "next/image";
 const AboutSection = () => {
   return (
     <section
@@ -14,12 +15,11 @@ const AboutSection = () => {
       </h3>
       <div className="about-area">
         <div className="image-container">
-          <img
-            src="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732366711/pexels-photo-5725575_e6cjuh.jpg"
-            alt="Studio Rafa Silva"
-            loading="lazy"
-            width={558}
-            height={558}
+          <Image
+            src="/images/about-image.jpg" // Caminho relativo à pasta `public`
+            alt="Descrição da imagem"
+            width={558} // Largura da imagem
+            height={558} // Altura da imagem
           />
         </div>
         <div className="content-container">

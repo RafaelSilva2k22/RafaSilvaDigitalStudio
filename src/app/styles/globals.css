@@ -27,7 +27,6 @@
   --max-width: 800px;
 }
 
-
 /* Configuração do comportamento de rolagem */
 html {
   scroll-behavior: smooth;
@@ -75,6 +74,7 @@ h3 {
 h4 {
   font-size: var(--font-medium);
   font-weight: 400;
+  padding: 0 16px;
 }
 
 @media (max-width: 768px) {

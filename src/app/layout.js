@@ -4,22 +4,26 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import CookieConsent from "./components/CookieConsent";
 
-export const metadata = {
-  title: "Criação de Sites Profissionais | Rafa Silva Digital Studio",
-  description:
-    "Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online.",
-  keywords:
-    "criação de sites, Criar site, Fazer site, desenvolvimento de sites, web design para empresas, sites personalizados, sites Profissionais, Rafa Silva Digital Studio",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
-        <meta name="description" content={metadata.description} />
-        <meta name="keywords" content={metadata.keywords} />
-        <meta property="og:title" content={metadata.title} />
-        <meta property="og:description" content={metadata.description} />
+        <meta
+          name="description"
+          content="Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online."
+        />
+        <meta
+          name="keywords"
+          content="criação de sites, Criar site, Fazer site, desenvolvimento de sites, web design para empresas, sites personalizados, sites Profissionais, Rafa Silva Digital Studio"
+        />
+        <meta
+          property="og:title"
+          content="Criação de Sites Profissionais | Rafa Silva Digital Studio"
+        />
+        <meta
+          property="og:description"
+          content="Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online."
+        />
         <meta
           property="og:image"
           content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif"
@@ -27,8 +31,14 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://projectinnextjs.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={metadata.title} />
-        <meta name="twitter:description" content={metadata.description} />
+        <meta
+          name="twitter:title"
+          content="Criação de Sites Profissionais | Rafa Silva Digital Studio"
+        />
+        <meta
+          name="twitter:description"
+          content="Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online."
+        />
         <meta
           name="twitter:image"
           content="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732367079/online-school-equipment-home_xf5sq9.avif"

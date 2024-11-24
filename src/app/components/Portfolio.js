@@ -1,12 +1,33 @@
 "use client";
 import React, { useState } from "react";
-import portfolioData from "../data/portfolio.json";
 import "../styles/portfolio.css";
 import Title from "./Title";
+import Image from "next/image";
 
 const PortfolioSection = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
   const [imageLoading, setImageLoading] = useState(true);
+
+  // Dados do portfólio diretamente no componente
+  const portfolioData = [
+    {
+      id: 1,
+      urlImage: "/images/project1.webp",
+      urlImageMobile: "/images/portfolio-image-1-mobile.webp",
+      textAlt: "Imagem site 1",
+      urlCompleteImage:
+        "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874384/Fintech_Landingpage_wcndb9.svg",
+    },
+    {
+      id: 2,
+      urlImage: "/images/project1.webp",
+      urlImageMobile: "/images/portfolio-image-2-mobile.webp",
+      textAlt: "Imagem site 2",
+      urlCompleteImage:
+        "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg",
+    },
+    // Adicione mais itens conforme necessário
+  ];
 
   const openModal = (index) => {
     setSelectedImageIndex(index);
@@ -30,16 +51,14 @@ const PortfolioSection = () => {
       <div className="portfolio-grid">
         {portfolioData.map((portfolio, index) => (
           <div className="portfolio-card" key={portfolio.id}>
-            <img
+            <Image
               className="project-image"
               src={portfolio.urlImage}
-              srcSet={`${portfolio.urlImageMobile} 170w, ${portfolio.urlImage} 200w`}
-              sizes="(max-width: 768px) 170px, 227px"
               alt={portfolio.textAlt}
-              loading="lazy"
-              onClick={() => openModal(index)}
               width={200}
               height={356}
+              onClick={() => openModal(index)}
+              priority
             />
           </div>
         ))}
@@ -56,11 +75,14 @@ const PortfolioSection = () => {
                 <div className="spinner"></div>
               </div>
             )}
-            <img
+            <Image
               src={portfolioData[selectedImageIndex].urlCompleteImage}
               alt={portfolioData[selectedImageIndex].textAlt}
               onLoad={handleImageLoad}
               style={{ display: imageLoading ? "none" : "block" }}
+              width={800}
+              height={600}
+              priority
             />
           </div>
         </div>
