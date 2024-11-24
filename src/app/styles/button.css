@@ -1,29 +1,29 @@
 .styledButton {
-    display: inline-flex;
-    padding: 0.8rem 1.5rem;
-    background-color: var(--Primary);
-    color: var(--background-black);
-    border-radius: 5px;
-    font-size: 1rem;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    width: auto;
-    max-width: fit-content;
-    transition: transform 0.3s;
-    margin-top: 2rem;
+  display: inline-flex;
+  padding: 0.8rem 1.5rem;
+  background-color: var(--Primary);
+  color: var(--text-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: auto;
+  max-width: fit-content;
+  transition: transform 0.3s;
+  margin-top: 2rem;
 }
 
 .styledButton:hover {
-    color: var(--background-black);
-    background-color: var(--hover);
+  color: var(--background-black);
+  background-color: var(--hover);
 }
 
 @media (max-width: 768px) {
-    .styledButton {
-        font-size: var(--font-small);
-        padding: 0.7rem 1.2rem;
-        margin: 24px auto 0;
-    }
+  .styledButton {
+    font-size: var(--font-small);
+    padding: 0.7rem 1.2rem;
+    margin: 24px auto 0;
+  }
 }

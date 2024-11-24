@@ -1,95 +1,94 @@
 /* Geral do HeroSection */
 .hero-container {
-    padding: var(--spacing-large) var(--spacing-medium);
-    text-align: center;
-    color: var(--background-blue);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-medium);
-    height: calc(100vh - var(--header-height));
-    max-height: 600px;
-    position: relative;
+  padding: var(--spacing-large) var(--spacing-medium);
+  text-align: center;
+  color: var(--background-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-medium);
+  height: calc(100vh - var(--header-height));
+  max-height: 600px;
+  position: relative;
 }
 
 @media (max-width: 768px) {
-    .hero-container {
-        padding: var(--spacing-medium) var(--spacing-small);
-    }
+  .hero-container {
+    padding: var(--spacing-medium) var(--spacing-small);
+  }
 }
 
 /* Estilo do Título */
 .hero-title {
-    font-size: var(--font-extra-large);
-    max-width: 900px;
-    color: var(--Primary);
-    font-weight: 700;
+  font-size: var(--font-extra-large);
+  max-width: 900px;
+  color: var(--Primary);
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
-    .hero-title {
-        font-size: var(--font-title-medium);
-    }
+  .hero-title {
+    font-size: var(--font-title-medium);
+  }
 }
 
 /* Estilo do Subtítulo */
 .hero-subtitle {
-    font-size: var(--font-medium);
-    max-width: 700px;
-    color: var(--text-color);
-    font-weight: 400;
+  font-size: var(--font-medium);
+  max-width: 700px;
+  color: var(--text-color);
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
-    .hero-subtitle {
-        font-size: var(--font-small);
-    }
+  .hero-subtitle {
+    font-size: var(--font-small);
+  }
 }
 
 /* Botão */
 .hero-button {
-    display: inline-block;
-    padding: var(--spacing-small) var(--spacing-medium);
-    background-color: var(--Primary);
-    color: var(--background-blue);
-    font-size: var(--font-medium);
-    font-weight: 600;
-    text-decoration: none;
-    border-radius: var(--border-radius);
-    transition: background-color 0.3s ease;
+  display: inline-block;
+  padding: var(--spacing-small) var(--spacing-medium);
+  background-color: var(--Primary);
+  color: var(--text-color);
+  font-size: var(--font-medium);
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  transition: background-color 0.3s ease;
 }
 
 .hero-button:hover {
-    background-color: var(--Primary-dark);
+  background-color: var(--Primary-dark);
 }
 
 /* Ícone do Mouse */
 .mouse-icon-container {
-    display: flex;
-    justify-content: center;
-    margin-top: var(--spacing-medium);
-    position: absolute;
-    bottom: var(--spacing-small);
-    left: 50%;
-    animation: float 1s infinite ease-in-out;
-    color: var(--Primary);
+  display: flex;
+  justify-content: center;
+  margin-top: var(--spacing-medium);
+  position: absolute;
+  bottom: var(--spacing-small);
+  left: 50%;
+  animation: float 1s infinite ease-in-out;
+  color: var(--Primary);
 }
 
 .mouse-icon {
-    font-size: 2rem;
-    transform: translateX(-50%);
+  font-size: 2rem;
+  transform: translateX(-50%);
 }
 
 /* Animações */
 @keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
 
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
+  50% {
+    transform: translateY(-10px);
+  }
 }

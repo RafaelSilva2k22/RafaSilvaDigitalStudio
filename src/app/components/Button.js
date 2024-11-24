@@ -1,4 +1,3 @@
-"use client";
 import "../styles/button.css";
 
 const Button = ({ href, text, target, rel }) => {
