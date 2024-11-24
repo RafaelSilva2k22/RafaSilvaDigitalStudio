@@ -40,7 +40,7 @@ const socialLinks = [
   { icon: "linkedin", url: "https://linkedin.com", label: "LinkedIn" },
 ];
 
-const copyright = "© 2024 Seu Nome. Todos os direitos reservados.";
+const copyright = "© 2024 Rafa Silva. Todos os direitos reservados.";
 
 function Footer() {
   return (
