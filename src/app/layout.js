@@ -48,23 +48,6 @@ export default function RootLayout({ children }) {
           href="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732289188/Global_whqzsu.svg"
         />
 
-        {/* Script Google Analytics com defer */}
-        <script
-          src="https://www.googletagmanager.com/gtag/js?id=G-L7ECCML2S9"
-          defer
-        ></script>
-        <script
-          defer
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-L7ECCML2S9');
-            `,
-          }}
-        ></script>
-
         {/* JSON-LD para SEO */}
         <script
           type="application/ld+json"
