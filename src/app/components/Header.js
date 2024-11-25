@@ -59,11 +59,7 @@ const Header = () => {
           </Link>
         </nav>
 
-        <div
-          className="hamburger-icon"
-          onClick={toggleMenu}
-          aria-label="Abrir menu"
-        >
+        <div className="hamburger-icon" onClick={toggleMenu}>
           <FaBars />
         </div>
       </div>
