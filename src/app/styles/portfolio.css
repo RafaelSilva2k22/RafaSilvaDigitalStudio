@@ -23,12 +23,12 @@
 }
 
 .project-image {
-  width: 170px;
-  aspect-ratio: 9/15;
+  width: 168.75px;
+  aspect-ratio: 9/16;
   border-radius: 8px;
   cursor: pointer;
   object-fit: cover;
-  height: auto;
+  height: 300px;
 }
 
 .modal-overlay {
@@ -119,12 +119,12 @@
     margin-left: 70%;
   }
   .portfolio-grid {
-    grid-template-columns: repeat(auto-fit, minmax(120px, 125px));
+    grid-template-columns: repeat(auto-fit, 120px);
     gap: 5px;
   }
   .project-image {
     width: 120px;
-    height: auto;
+    height: 213.33px;
   }
 }
 

@@ -12,14 +12,14 @@ const PortfolioSection = () => {
   const portfolioData = [
     {
       id: 1,
-      urlImage: "/images/project1.webp",
+      urlImage: "/images/Fintech-Landingpage.webp",
       textAlt: "Imagem site 1",
       urlCompleteImage:
         "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874384/Fintech_Landingpage_wcndb9.svg",
     },
     {
       id: 2,
-      urlImage: "/images/frame.webp",
+      urlImage: "/images/travel.webp",
       textAlt: "Imagem site 2",
       urlCompleteImage:
         "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg",
