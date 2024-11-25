@@ -36,6 +36,7 @@
 }
 h4 {
   color: var(--Primary);
+  text-align: start;
 }
 
 .image-container img {
