@@ -8,6 +8,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <head>
+        <title>
+          Criação de Sites Profissionais | Rafa Silva Digital Studio
+        </title>
+        <meta
+          name="description"
+          content="Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online."
+        />
         <meta
           name="description"
           content="Rafa Silva Digital Studio oferece criação de sites modernos para empresas de Itaí e Jardinópolis. Obtenha um site responsivo para destacar seu negócio online."

@@ -16,7 +16,7 @@ const AboutSection = () => {
       <div className="about-area">
         <div className="image-container">
           <Image
-            src="/images/about-image.jpg" // Caminho relativo à pasta `public`
+            src="/images/about-image.svg" // Caminho relativo à pasta `public`
             alt="Descrição da imagem"
             width={558} // Largura da imagem
             height={558} // Altura da imagem
