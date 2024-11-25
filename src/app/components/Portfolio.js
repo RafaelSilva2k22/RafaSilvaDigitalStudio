@@ -53,7 +53,7 @@ const PortfolioSection = () => {
               className="project-image"
               src={portfolio.urlImage}
               alt={portfolio.textAlt}
-              width={200}
+              width={170}
               height={289}
               onClick={() => openModal(index)}
               priority

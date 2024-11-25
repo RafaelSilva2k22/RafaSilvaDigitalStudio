@@ -6,7 +6,7 @@
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 200px));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 180px));
   justify-content: center;
   gap: 3rem;
   margin-top: 2.5rem;
@@ -117,6 +117,9 @@
 @media (max-width: 475px) {
   .close-button {
     margin-left: 70%;
+  }
+  .portfolio-grid {
+    gap: 1rem;
   }
 }
 
