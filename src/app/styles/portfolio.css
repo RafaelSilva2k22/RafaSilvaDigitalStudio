@@ -28,7 +28,7 @@
   border-radius: 8px;
   cursor: pointer;
   object-fit: cover;
-  height: 289;
+  height: 289px;
 }
 
 .modal-overlay {
@@ -112,10 +112,6 @@
 @media (max-width: 768px) {
   .close-button {
     margin-left: 80%;
-  }
-  .project-image {
-    width: 100%;
-    aspect-ratio: 3/4;
   }
 }
 @media (max-width: 475px) {
