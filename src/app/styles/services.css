@@ -49,6 +49,7 @@
   margin: 1rem 0;
   font-weight: 700;
   font-size: var(--font-medium);
+  text-align: center;
 }
 
 @media (max-width: 768px) {
