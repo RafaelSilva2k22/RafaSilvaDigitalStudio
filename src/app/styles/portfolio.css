@@ -23,12 +23,12 @@
 }
 
 .project-image {
-  max-width: 170px;
+  width: 170px;
   aspect-ratio: 9/16;
   border-radius: 8px;
   cursor: pointer;
   object-fit: cover;
-  height: auto;
+  height: 289;
 }
 
 .modal-overlay {

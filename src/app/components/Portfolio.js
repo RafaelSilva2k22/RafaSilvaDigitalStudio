@@ -12,16 +12,14 @@ const PortfolioSection = () => {
   const portfolioData = [
     {
       id: 1,
-      urlImage: "/images/project1.webp",
-      urlImageMobile: "/images/portfolio-image-1-mobile.webp",
+      urlImage: "/images/project2.webp",
       textAlt: "Imagem site 1",
       urlCompleteImage:
         "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874384/Fintech_Landingpage_wcndb9.svg",
     },
     {
       id: 2,
-      urlImage: "/images/project1.webp",
-      urlImageMobile: "/images/portfolio-image-2-mobile.webp",
+      urlImage: "/images/frame.webp",
       textAlt: "Imagem site 2",
       urlCompleteImage:
         "https://res.cloudinary.com/dcyw5xzx4/image/upload/v1731874383/Travel_Agency_Landing_Page_UI_vjbgys.svg",
@@ -56,7 +54,7 @@ const PortfolioSection = () => {
               src={portfolio.urlImage}
               alt={portfolio.textAlt}
               width={200}
-              height={356}
+              height={289}
               onClick={() => openModal(index)}
               priority
             />
