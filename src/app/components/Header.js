@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <div className="content-header">
         <div className="logo">
-          <Link href="/">
+          <Link href="/" aria-label="Página inicial">
             <svg
               width="150"
               height="36"
@@ -42,42 +42,71 @@ const Header = () => {
         </div>
 
         <nav className="nav-menu">
-          <Link href="/" className="nav-link">
+          <Link href="/" className="nav-link" aria-label="Home">
             Home
           </Link>
-          <Link href="/about" className="nav-link">
+          <Link href="/about" className="nav-link" aria-label="Sobre nós">
             Sobre
           </Link>
-          <Link href="/services" className="nav-link">
+          <Link href="/services" className="nav-link" aria-label="Serviços">
             Serviços
           </Link>
-          <Link href="/portfolio" className="nav-link">
+          <Link href="/portfolio" className="nav-link" aria-label="Portfolio">
             Portfólio
           </Link>
-          <Link href="/contact" className="nav-link">
+          <Link href="/contact" className="nav-link" aria-label="Contato">
             Contato
           </Link>
         </nav>
 
-        <div className="hamburger-icon" onClick={toggleMenu}>
+        <div
+          className="hamburger-icon"
+          onClick={toggleMenu}
+          aria-label="Abrir menu"
+        >
           <FaBars />
         </div>
       </div>
 
       <div className="mobile-menu">
-        <Link href="/" className="nav-link" onClick={toggleMenu}>
+        <Link
+          href="/"
+          className="nav-link"
+          onClick={toggleMenu}
+          aria-label="Home"
+        >
           Home
         </Link>
-        <Link href="/about" className="nav-link" onClick={toggleMenu}>
+        <Link
+          href="/about"
+          className="nav-link"
+          onClick={toggleMenu}
+          aria-label="Sobre nós"
+        >
           Sobre
         </Link>
-        <Link href="/services" className="nav-link" onClick={toggleMenu}>
+        <Link
+          href="/services"
+          className="nav-link"
+          onClick={toggleMenu}
+          aria-label="Serviços"
+        >
           Serviços
         </Link>
-        <Link href="/portfolio" className="nav-link" onClick={toggleMenu}>
+        <Link
+          href="/portfolio"
+          className="nav-link"
+          onClick={toggleMenu}
+          aria-label="Portifolio"
+        >
           Portfólio
         </Link>
-        <Link href="/contact" className="nav-link" onClick={toggleMenu}>
+        <Link
+          href="/contact"
+          className="nav-link"
+          onClick={toggleMenu}
+          aria-label="Contato"
+        >
           Contato
         </Link>
       </div>
