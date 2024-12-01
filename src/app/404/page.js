@@ -4,12 +4,12 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
 import "../styles/404.css"; // Importando o arquivo de estilos
-
+import Image from "next/image";
 const NotFoundPage = () => (
   <>
     <Header />
     <div className="not-found-container">
-      <img
+      <Image
         className="not-found-image"
         src="https://res.cloudinary.com/dcyw5xzx4/image/upload/v1732368501/404_kupyzv.avif"
         alt="Erro 404"
